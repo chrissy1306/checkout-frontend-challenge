@@ -2,20 +2,31 @@
   "name": "checkout-frontend-challenge",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "redux-mock-store": "^1.5.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-minimal-pie-chart": "^8.3.0",
+    "react-redux": "^7.2.8",
     "react-scripts": "5.0.1",
+    "recharts": "^2.1.9",
+    "redux": "^4.1.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src/ --ext .js"
   },
   "eslintConfig": {
     "extends": [

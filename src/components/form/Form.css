@@ -1,0 +1,9 @@
+.FormContainer {
+    margin-bottom: 48px;
+    max-width: 400px;
+}
+
+.InputField {
+    width: 100%;
+    margin-bottom: 16px !important;
+}
